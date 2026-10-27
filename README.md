@@ -5,7 +5,9 @@ Cheat codes for [EmuSen](https://github.com/RedQuE3n/EmuSen), one file per game,
 EmuSen downloads this collection's releases; it is not bundled with the program. The files are plain text, in
 libretro's `.cht` layout wherever a console's codes fit it, so other frontends can read them too.
 
-## Layout (planned)
+## Layout
+
+- `upstream/<source>/`: each source exactly as imported, with its own licence (see `ATTRIBUTION.md`).
 
 - One folder per console, one file per game, named by the game and identified by its serial or dump hash.
 - `ATTRIBUTION.md` lists every source, its licence and when it was imported; each game's file records where its
